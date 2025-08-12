@@ -1,1 +1,5 @@
-# Detectia-si-Eliminarea-Interferentelor-in-Semnalele-Electrocardiografice
+#Detecția și eliminarea interferențelor în semnalele electrocardiografice (ECG) reprezintă un proces esențial pentru obținerea unor înregistrări corecte ale activității electrice a inimii. Semnalul ECG poate fi afectat de diverse tipuri de zgomote și artefacte, cum ar fi zgomotul de rețea (50/60 Hz), driftul de linie de bază, interferențele electromagnetice, artefactele produse de mișcarea pacientului sau zgomotul muscular. Aceste interferențe pot îngreuna interpretarea vizuală a semnalului și pot reduce precizia algoritmilor automați de analiză.
+
+Procesul începe cu detecția componentelor perturbatoare, folosind metode de analiză în timp și frecvență, transformate matematice (Fourier, wavelet) sau algoritmi de identificare adaptivă. Ulterior, se aplică filtre digitale – cum ar fi filtre trece-jos, trece-sus, trece-bandă sau filtre notch – și tehnici avansate de procesare adaptivă pentru a elimina interferențele, păstrând în același timp caracteristicile esențiale ale semnalului cardiac.
+
+Rezultatul este un semnal ECG mai curat, cu o fidelitate sporită, care permite un diagnostic medical mai sigur și mai precis, reducând riscul interpretărilor eronate.
